@@ -1,0 +1,10 @@
+.main{
+    padding: 2px;
+    border: 2px solid red;
+    border-radius: 100%;
+    width: fit-content;
+}
+.image{
+    margin-top: 3px;
+    border-radius: 100%;
+}

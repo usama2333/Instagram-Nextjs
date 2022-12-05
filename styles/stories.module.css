@@ -1,0 +1,21 @@
+.main{
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 8px;
+    height: 90px;
+    width: 480px;
+    display: flex;
+    align-items: center;    
+    padding-left: 20px;
+}
+.story{
+    border-width: 2px;  
+    border-style: solid;
+    border-color: brown;  
+    border-radius: 100%;
+    padding: 1px;
+    margin: 0px 4px;
+}
+.img{
+    border-radius: 100%;
+    margin-top: 2px;
+}

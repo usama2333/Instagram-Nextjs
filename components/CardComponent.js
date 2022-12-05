@@ -12,13 +12,13 @@ CardComponent = ({key, userName, imageurl, likes, uploadedtime, profileImage}) =
         <div className={sty.top}>
             <div className={sty.topfirst}>
             <Avatar profileImage={profileImage}/>
-            {/* <Image src={profileImage} width={40} /> */}
+            
             <p style={{fontSize:"14px", fontWeight:600}}>{userName}</p>
             </div>
             <p>...</p>
         </div>
         <div className={sty.pic}>
-            {/* <Image loader={() => imageurl} src={imageurl} width={460} height={500} alt="post1"/> */}
+            
             <Image  src={imageurl} width={460} height={500} alt="post1"/>
 
         </div>

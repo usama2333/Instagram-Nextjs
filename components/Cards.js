@@ -30,7 +30,7 @@ const Cards = () => {
         "download": "https://unsplash.com/photos/CFi7_hCXecU/download?ixid=MnwzODY2MjZ8MHwxfHNlYXJjaHwxfHxsb25kb24lM0Z8ZW58MHx8fHwxNjcwMTgwNzM3",
         "download_location": "https://api.unsplash.com/photos/CFi7_hCXecU/download?ixid=MnwzODY2MjZ8MHwxfHNlYXJjaHwxfHxsb25kb24lM0Z8ZW58MHx8fHwxNjcwMTgwNzM3"
     },
-    "likes": 2175,
+    "likes": 24,
     "liked_by_user": false,
     "current_user_collections": [],
     "sponsorship": null,
@@ -69,7 +69,7 @@ const Cards = () => {
             "medium": "https://images.unsplash.com/profile-1619607886061-9792767a7be1image?ixlib=rb-4.0.3&crop=faces&fit=crop&w=64&h=64",
             "large": "https://images.unsplash.com/profile-1619607886061-9792767a7be1image?ixlib=rb-4.0.3&crop=faces&fit=crop&w=128&h=128"
         },
-        "instagram_username": "amour.etc",
+        "instagram_username": "Anonymous",
         "total_collections": 0,
         "total_likes": 8,
         "total_photos": 168,
@@ -135,7 +135,7 @@ const Cards = () => {
                         "download": "https://unsplash.com/photos/Nyvq2juw4_o/download",
                         "download_location": "https://api.unsplash.com/photos/Nyvq2juw4_o/download"
                     },
-                    "likes": 3212,
+                    "likes": 12,
                     "liked_by_user": false,
                     "current_user_collections": [],
                     "sponsorship": null,
@@ -173,7 +173,7 @@ const Cards = () => {
                         "accepted_tos": false,
                         "for_hire": false,
                         "social": {
-                            "instagram_username": null,
+                            "instagram_username": "Test",
                             "portfolio_url": "https://www.flickr.com/photos/lastingimages/",
                             "twitter_username": null,
                             "paypal_email": null
@@ -267,18 +267,14 @@ const [datacomplete, setDatacomplete] = useState(data)
     <div>
       {
         datacomplete.map((item, ind)=>{
-          // console.log("insta user name", item.user.instagram_username);
-          // console.log("image url", item.urls.small);
-          // console.log("likes", item.likes);
-           // console.log("date of updation", item.updated_at);
+          
            console.log("profile image", item.user.profile_image?.small);
-                // console.log("tags", item.tags);
+                
 
                 return(
-              // <image  src={item.user.profile_image.large}/>
-                  // <div key={ind}>
+              
           <CardComponent key={ind} userName={item.user.instagram_username} imageurl={item.urls.small} likes={item.likes} uploadedtime={item.updated_at} profileImage={item.user.profile_image.large}/>
-          // </div>
+          
           );
         })
       }

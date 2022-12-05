@@ -9,16 +9,16 @@ const Stories = () => {
             <Image src="/dp.jpg" height={70} width={70} alt="story" className={sty.img}/>
         </div>
         <div className={sty.story}>
-            <Image src="/dp.jpg" height={70} width={70} alt="story" className={sty.img}/>
+            <Image src="/team1.jpg" height={70} width={70} alt="story" className={sty.img}/>
         </div>
         <div className={sty.story}>
-            <Image src="/dp.jpg" height={70} width={70} alt="story" className={sty.img}/>
+            <Image src="/teampic2.jpg" height={70} width={70} alt="story" className={sty.img}/>
         </div>
         <div className={sty.story}>
-            <Image src="/dp.jpg" height={70} width={70} alt="story" className={sty.img}/>
+            <Image src="/blog-1.jpeg" height={70} width={70} alt="story" className={sty.img}/>
         </div>
         <div className={sty.story}>
-            <Image src="/dp.jpg" height={70} width={70} alt="story" className={sty.img}/>
+            <Image src="/blog-2.jpeg" height={70} width={70} alt="story" className={sty.img}/>
         </div>
     </div>
   )

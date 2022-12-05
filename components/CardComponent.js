@@ -19,7 +19,9 @@ CardComponent = ({key, userName, imageurl, likes, uploadedtime, profileImage}) =
         </div>
         <div className={sty.pic}>
             
-            <Image  src={imageurl} width={460} height={500} alt="post1"/>
+            <Image  src="/blog-2.jpeg" width={460} height={450} alt="post1"/>
+
+            {/* <Image  src={imageurl} width={460} height={450} alt="post1"/> */}
 
         </div>
 

@@ -166,7 +166,7 @@ const Cards = () => {
                             "medium": "https://images.unsplash.com/placeholder-avatars/extra-large.jpg?ixlib=rb-4.0.3&crop=faces&fit=crop&w=64&h=64",
                             "large": "https://images.unsplash.com/placeholder-avatars/extra-large.jpg?ixlib=rb-4.0.3&crop=faces&fit=crop&w=128&h=128"
                         },
-                        "instagram_username": null,
+                        "instagram_username": "Anonymous",
                         "total_collections": 10,
                         "total_likes": 46,
                         "total_photos": 86,
@@ -209,7 +209,7 @@ const Cards = () => {
         "download": "https://unsplash.com/photos/Oja2ty_9ZLM/download?ixid=MnwzODY2MjZ8MHwxfHNlYXJjaHwyfHxsb25kb24lM0Z8ZW58MHx8fHwxNjcwMTgwNzM3",
         "download_location": "https://api.unsplash.com/photos/Oja2ty_9ZLM/download?ixid=MnwzODY2MjZ8MHwxfHNlYXJjaHwyfHxsb25kb24lM0Z8ZW58MHx8fHwxNjcwMTgwNzM3"
     },
-    "likes": 1417,
+    "likes": 22,
     "liked_by_user": false,
     "current_user_collections": [],
     "sponsorship": null,
@@ -239,14 +239,14 @@ const Cards = () => {
             "medium": "https://images.unsplash.com/profile-1525018026535-581938eb5586?ixlib=rb-4.0.3&crop=faces&fit=crop&w=64&h=64",
             "large": "https://images.unsplash.com/profile-1525018026535-581938eb5586?ixlib=rb-4.0.3&crop=faces&fit=crop&w=128&h=128"
         },
-        "instagram_username": "bendavisual",
+        "instagram_username": "Deniyal",
         "total_collections": 3,
         "total_likes": 200,
         "total_photos": 24,
         "accepted_tos": true,
         "for_hire": true,
         "social": {
-            "instagram_username": "bendavisual",
+            "instagram_username": "Deniyal",
             "portfolio_url": "http://benjamindavies.co/",
             "twitter_username": "daviesben33",
             "paypal_email": null
